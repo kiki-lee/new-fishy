@@ -16,3 +16,4 @@ let mySprite = sprites.create(img`
     . . . c c c f f f f f . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+controller.moveSprite(mySprite)
